@@ -36,6 +36,7 @@ public class StudentAnalyzer {
                 validCount++;
             }
         }
+        
 
         return validCount == 0 ? 0 : sum / validCount;
     }
